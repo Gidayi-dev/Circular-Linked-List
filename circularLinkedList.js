@@ -60,9 +60,9 @@ class Node {
   cll.append(1);
   cll.append(2);
   cll.append(3);
-  console.log("Original circular linked list:");
+  console.log("Initial circular linked list:");
   cll.display(); 
   
   cll.swapFirstTwo();
-  console.log("After swapping first two nodes:");
+  console.log("Swapping first two nodes:");
   cll.display();
